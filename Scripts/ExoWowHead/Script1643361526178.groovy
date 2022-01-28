@@ -138,6 +138,8 @@ WebUI.verifyElementText(findTestObject('Page_Pioche en fer froid - Objet - World
 
 WebUI.back()
 
+WebUI.scrollToElement(findTestObject('Page_Lardeur - PNJ - World of Warcraft/a_Grves de gelier voles'), 5)
+
 WebUI.waitForElementClickable(findTestObject('Page_Lardeur - PNJ - World of Warcraft/a_Grves de gelier voles'), 20)
 
 WebUI.click(findTestObject('Object Repository/Page_Lardeur - PNJ - World of Warcraft/a_Grves de gelier voles'))
