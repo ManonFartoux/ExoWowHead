@@ -95,10 +95,10 @@ WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World
     '+24 Endurance')
 
 WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World of_f93b8d/Page_Chausses de Lardeur - Objet - World of Warcraft/span_Augmente votre score de coup critique de 21 (0.60 au niveau 70)'), 
-    '')
+    'Augmente votre score de coup critique de +21 (0.60% au niveau 70)')
 
 WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World of_f93b8d/Page_Chausses de Lardeur - Objet - World of Warcraft/span_12 Versatilit (0.30 au niveau 70)'), 
-    'Augmente de votre score de coup critique de +21 (0.60% au niveau 70)')
+    '+12 Versatilité (0.30% au niveau 70)')
 
 WebUI.back()
 
