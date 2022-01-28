@@ -148,7 +148,41 @@ WebUI.waitForElementClickable(findTestObject('Page_Lardeur - PNJ - World of Warc
 
 WebUI.click(findTestObject('Object Repository/Page_Lardeur - PNJ - World of Warcraft/a_Grves de gelier voles'))
 
-WebUI.verifyElementText(findTestObject(null), '')
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/b_Grves de gelier voles'), 
+    'Grèves de geôlier volées')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/span_Niveau dobjet 57'), 
+    'Niveau d\'objet 57')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/td_Jambes'), 
+    'Jambes')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Grves de gelier voles - Objet - World of Warcraft/span_Mailles'), 
+    'Mailles')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/span_Armure  8'), 
+    'Armure : 8')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/span_16 Agilit or Intelligence'), 
+    '+16 [Agilité or Intelligence]')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/span_24 Endurance'), 
+    '+24 Endurance')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/span_Augmente votre score de coup critique de 20 (0.57 au niveau 70)'), 
+    'Augmente votre score de coup critique de +20 (0.57% au niveau 70)')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/span_Augmente votre score de hte de 12 (0.36 au niveau 70)'), 
+    'Augmente votre score de hâte de +12 (0.36% au niveau 70)')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/div_Prix de Vente 16 57 97'), 
+    'Prix de Vente: 16 57 97')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/div_Dpouill sur Lardeur'), 
+    'Dépouillé sur: Lardeur')
+
+WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - World _85f8f7/Page_Grves de gelier voles - Objet - World of Warcraft/div_Chance de Butin 11.54'), 
+    'Chance de Butin: 11.54%')
 
 WebUI.back()
 
@@ -156,5 +190,39 @@ WebUI.waitForElementClickable(findTestObject('Page_Lardeur - PNJ - World of Warc
 
 WebUI.click(findTestObject('Object Repository/Page_Lardeur - PNJ - World of Warcraft/a_Espauliers de Tourne-Cl'))
 
-WebUI.verifyElementText(findTestObject(null), '')
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/b_Espauliers de Tourne-Cl'), 
+    'Espauliers de Tourne-Clé')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_Niveau dobjet 57'), 
+    'Niveau d\'objet 57')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/td_paule'), 
+    'Épaule')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_Plaques'), 
+    'Plaques')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_Armure  10'), 
+    'Armure : 10')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_12 Force or Intelligence'), 
+    '+12 [Force or Intelligence]')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_18 Endurance'), 
+    '+18 Endurance')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_Augmente votre score de coup critique de 9 (0.26 au niveau 70)'), 
+    'Augmente votre score de coup critique de +9 (0.26% au niveau 70)')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_15 Versatilit'), 
+    '+15 Versatilité')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/div_Prix de Vente 12 16 55'), 
+    'Prix de Vente: 12 16 55')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/div_Dpouill sur Lardeur'), 
+    'Dépouillé sur: Lardeur')
+
+WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/div_Chance de Butin 5.31'), 
+    'Chance de Butin: 5.31%')
 
