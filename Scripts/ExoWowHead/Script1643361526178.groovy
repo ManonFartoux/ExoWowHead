@@ -67,9 +67,6 @@ WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - Wor
 WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - World _4f6cc4/Page_Chahuteurs de cadavre - Objet - World of Warcraft/span_11 Versatilit'), 
     '11 Versatilité')
 
-WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - World _4f6cc4/Page_Chahuteurs de cadavre - Objet - World of Warcraft/td_Objets Chahuteurs de cadavre'), 
-    'Durabilité 60 / 60')
-
 WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - World _4f6cc4/Page_Chahuteurs de cadavre - Objet - World of Warcraft/td_Niveau 10 requisPrix de Vente 11 81 49'), 
     'Niveau 10')
 
