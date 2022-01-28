@@ -67,9 +67,6 @@ WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - Wor
 WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - World _4f6cc4/Page_Chahuteurs de cadavre - Objet - World of Warcraft/span_11 Versatilit'), 
     '11 Versatilité')
 
-WebUI.verifyElementText(findTestObject('Page_Chahuteurs de cadavre - Objet - World _4f6cc4/Page_Chahuteurs de cadavre - Objet - World of Warcraft/td_Niveau 10 requisPrix de Vente 11 81 49'), 
-    'Niveau 10')
-
 WebUI.back()
 
 WebUI.waitForElementClickable(findTestObject('Page_Lardeur - PNJ - World of Warcraft/a_Chausses de Lardeur'), 20)
@@ -92,7 +89,7 @@ WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World
     'Armure : 6')
 
 WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World of_f93b8d/Page_Chausses de Lardeur - Objet - World of Warcraft/span_16 Agilit or Intelligence'), 
-    '+16 {Agilité or Intelligence]')
+    '+16 [Agilité or Intelligence]')
 
 WebUI.verifyElementText(findTestObject('Page_Chausses de Lardeur - Objet - World of_f93b8d/Page_Chausses de Lardeur - Objet - World of Warcraft/span_24 Endurance'), 
     '+24 Endurance')
