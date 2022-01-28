@@ -180,6 +180,8 @@ WebUI.verifyElementText(findTestObject('Page_Grves de gelier voles - Objet - Wor
 
 WebUI.back()
 
+WebUI.scrollToElement(findTestObject('Page_Lardeur - PNJ - World of Warcraft/a_Espauliers de Tourne-Cl'), 5)
+
 WebUI.waitForElementClickable(findTestObject('Page_Lardeur - PNJ - World of Warcraft/a_Espauliers de Tourne-Cl'), 20)
 
 WebUI.click(findTestObject('Object Repository/Page_Lardeur - PNJ - World of Warcraft/a_Espauliers de Tourne-Cl'))
@@ -209,7 +211,7 @@ WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - W
     'Augmente votre score de coup critique de +9 (0.26% au niveau 70)')
 
 WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/span_15 Versatilit'), 
-    '+15 Versatilité')
+    '15 Versatilité')
 
 WebUI.verifyElementText(findTestObject('Page_Espauliers de Tourne-Cl - Objet - Worl_ee7f10/Page_Espauliers de Tourne-Cl - Objet - World of Warcraft/div_Prix de Vente 12 16 55'), 
     'Prix de Vente: 12 16 55')
